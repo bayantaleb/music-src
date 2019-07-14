@@ -1,9 +1,8 @@
 import React from 'react';
 
-import ReactDOM from 'react-dom';
 import { Table } from 'antd';
 
-import { List, Typography } from 'antd';
+
 
 
 const columns = [

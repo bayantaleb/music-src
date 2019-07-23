@@ -1,9 +1,7 @@
 import React from 'react';
-
 import { Layout, Menu, Breadcrumb } from 'antd';
 
 const { Header, Content, Footer } = Layout;
-
 const CustomLayout = (props) => {
     return (
         <Layout className="layout">
@@ -12,7 +10,7 @@ const CustomLayout = (props) => {
             <Menu
               theme="dark"
               mode="horizontal"
-              defaultSelectedKeys={['2']}
+              defaultSelectedKeys={['1']}
               style={{ lineHeight: '64px' }}
             >
               <Menu.Item key="1">nav 1</Menu.Item>
@@ -26,7 +24,7 @@ const CustomLayout = (props) => {
               <Breadcrumb.Item>List</Breadcrumb.Item>
               <Breadcrumb.Item>App</Breadcrumb.Item>
             </Breadcrumb>
-            <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
+            <div style={{ background: '#800000', padding: 30, minHeight: 400}}>
                 {props.children}
             </div>
           </Content>
@@ -34,5 +32,4 @@ const CustomLayout = (props) => {
         </Layout>
     );
 }
-
 export default CustomLayout;

@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+    font-family: 'BebasNeue Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/BebasNeue Bold.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue Book';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/BebasNeue Book.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/BebasNeue Light.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/BebasNeue Regular.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue Thin';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/BebasNeue Thin.ttf');
+}
